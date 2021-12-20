@@ -1,5 +1,5 @@
 
-const initialStage = 10 ;
+const initialStage = 0 ;
 
 const changeTheNumber = (state = initialStage, action) => {
     switch(action.type){
