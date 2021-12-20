@@ -7,7 +7,7 @@ import store from "./store";
 import { Provider } from "react-redux";
 
 store.subscribe(() => {
-  console.log(store.getStore());
+  console.log(store.getStore);
 });
 
 ReactDOM.render(
